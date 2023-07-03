@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/app1",
+      "destination": "https://vercel-test-app1.vercel.app/app1"
+    },
+    {
+      "source": "/app1/:match*",
+      "destination": "https://vercel-test-app1.vercel.app/app1/:match*"
+    },
+    {
+      "source": "/app2",
+      "destination": "https://vercel-test-app2.vercel.app/app2"
+    },
+    {
+      "source": "/app2/:match*",
+      "destination": "https://vercel-test-app2.vercel.app/app2/:match*"
+    }
+  ]
+}
