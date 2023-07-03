@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/app2/:path*",
+      "destination": "https://vercel-test-app2.vercel.app/:path*"
+    }
+  ]
+}
